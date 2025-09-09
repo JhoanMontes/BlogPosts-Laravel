@@ -13,6 +13,7 @@ class PostController extends Controller
             'body' => 'required'
         ]);
 
+        // \App\Models\Post::create()
         $request->user()->posts()->create($request->all());
 
         return back();
