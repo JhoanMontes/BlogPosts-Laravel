@@ -10,8 +10,7 @@
                 class="w-full mb-2 p-0 text-white bg-transparent border-0 border-b-2 border-slate-800 focus:ring-0 resize-none overflow-hidden"
                 placeholder="Tu comentario..."></textarea>
 
-            <input type="submit" value="Enviar"
-                class="px-6 py-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold rounded-md text-sm transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-yellow-600" />
+            <x-submit-button>Enviar</x-submit-button>
 
         </form>
 
